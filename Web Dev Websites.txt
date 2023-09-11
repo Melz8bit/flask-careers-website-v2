@@ -1,0 +1,19 @@
+Web Dev Websites
+----------------------------------
+HTML/CSS/JS Tutorial: 
+- https://www.htmldog.com/
+
+Drawing Tool: 
+- https://excalidraw.com/
+
+Free Pictures:
+- https://unsplash.com/
+
+Lorem Ipsum Generator:
+- https://loremipsum.io/
+
+Bootstrap:
+- https://getbootstrap.com/
+
+Mailto Generator:
+- https://mailtolink.me/
