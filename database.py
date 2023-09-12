@@ -1,11 +1,15 @@
 import sqlalchemy
+import os
 
 from sqlalchemy import create_engine, text
 from sqlalchemy.util import deprecations
 
 deprecations.SILENCE_UBER_WARNING = 1
 
-DB_CONNECTION_STRING = "mysql+pymysql://kjx2kr0lpokqtii1snu8:pscale_pw_QiROPMDC4UVFooJgDjNMY7qndcPSzRyIaQ67GmSQHOa@aws.connect.psdb.cloud/flaskcareers?charset=utf8mb4"
+db_username = os.environ['DB_USERNAME']
+db_password = os.environ['DB_PASSWORD']
+
+DB_CONNECTION_STRING = f"mysql+pymysql://{db_username}:{db_password}@aws.connect.psdb.cloud/flaskcareers?charset=utf8mb4"
 
 engine = create_engine(DB_CONNECTION_STRING,
                        connect_args={"ssl": {
