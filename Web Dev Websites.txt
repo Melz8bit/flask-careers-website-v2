@@ -17,3 +17,9 @@ Bootstrap:
 
 Mailto Generator:
 - https://mailtolink.me/
+
+Online DB Server:
+- https://www.planetscape.com
+
+MySQL Desktop Manager:
+- MySQL Workbench
