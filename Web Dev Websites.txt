@@ -23,3 +23,9 @@ Online DB Server:
 
 MySQL Desktop Manager:
 - MySQL Workbench
+
+
+
+
+Project Tutorial Notes:
+https://jovian.com/aakashns/database-driven-web-applications
